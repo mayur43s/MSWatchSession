@@ -1,0 +1,16 @@
+PODS:
+  - MSWatchSession (1.0.0)
+
+DEPENDENCIES:
+  - MSWatchSession (from `../`)
+
+EXTERNAL SOURCES:
+  MSWatchSession:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MSWatchSession: 240419212ff51ee1671ee581ade767c43446a71d
+
+PODFILE CHECKSUM: a2f4debe62fae60b022db8de2aaa83fc75be21ea
+
+COCOAPODS: 1.15.2

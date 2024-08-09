@@ -1,0 +1,1195 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00D51759A5CD30CE06598BD17E8A155D /* Pods-MSWatchSessionWatchApp_Example Watch App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF65CC75985F7CA4DBF5C6E7F18B677 /* Pods-MSWatchSessionWatchApp_Example Watch App-dummy.m */; };
+		02421201AC5D536F523C71BA0696780D /* WatchMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853B9EFF00EF8EF8E9EA80A087F2BE94 /* WatchMessage.swift */; };
+		180A8440CA2DBFA42C97EAC5DF600604 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 78115CABF97C367620E6A33325E0304F /* PrivacyInfo.xcprivacy */; };
+		270FAD3B24A0D05D69D577EF1EE99137 /* MSWatchSession-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 302116E064B630B1B74170B53DD17D50 /* MSWatchSession-iOS-dummy.m */; };
+		277DC45FEA486D83AE020A63E3FB68F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B62B9ACB69DDF461ACAAAB9CF1708C5 /* Foundation.framework */; };
+		375AE855224E00D8DD960EA9E675C7F4 /* MSWatchSession-watchOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 330C5955B8DC8958C4FDF7CDF93B6807 /* MSWatchSession-watchOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C9CDB2175551F8CE4A4326F4A765532 /* MSWatchSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077DFB9793EC25E16E4776E4D68116CA /* MSWatchSession.swift */; };
+		3F3BDEE72BC79B0EAAB577A28D92F753 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 082FFB103C8998778F9C95CBDF963D32 /* WatchConnectivity.framework */; };
+		51C09A5EEDF37BA9D6EF6E21BBB028A9 /* WatchMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853B9EFF00EF8EF8E9EA80A087F2BE94 /* WatchMessage.swift */; };
+		8070B3DD52D7CE75F2DD075377795738 /* Pods-MSWatchSessionWatchApp_Example Watch App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5F65E2E59EEFF4136817E0FECAA9C4E /* Pods-MSWatchSessionWatchApp_Example Watch App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83ED79AB45005713F311FB0F70343A23 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 78115CABF97C367620E6A33325E0304F /* PrivacyInfo.xcprivacy */; };
+		9686C77384B6DCB7B7FED0E25EA64B00 /* MSWatchSession-watchOS-MSWatchSession in Resources */ = {isa = PBXBuildFile; fileRef = FC1D0CAE85F60743C7B4CE41402A5EED /* MSWatchSession-watchOS-MSWatchSession */; };
+		977AC93174B377B446B2B99C9AA008D3 /* MSWatchSession-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD45D67A43E0670E072FD013DF600B82 /* MSWatchSession-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A124528FE401CE28600A3C1607E12CA /* MSWatchSession-watchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B49119BA6F2D43CA212FFD6A93FA327 /* MSWatchSession-watchOS-dummy.m */; };
+		A00C4E1D9D2DF2F5A362087DCCA18223 /* MSWatchSession+Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29266076B8B1CD49C7EC91185F94847B /* MSWatchSession+Debug.swift */; };
+		B37BF16F2C0F9099239B0497E249FB6B /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B1975972DA464AB4BD35B6C125CC2D /* WatchConnectivity.framework */; };
+		C8B00733F4CD5FEDE45DF24096FB2C11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61AF5EB4F939A07754587CE4B4422CCC /* Foundation.framework */; };
+		D88C824B8614A625FD11A24202E1C81D /* Pods-MSWatchSession_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70D262C329CF34FC39C82DDF8161D8A9 /* Pods-MSWatchSession_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D94CF7EB498FD850036FEEB4A94FCEFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B62B9ACB69DDF461ACAAAB9CF1708C5 /* Foundation.framework */; };
+		DEFE4BFA4E99A87B27510D2167C0C399 /* MSWatchSession+Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29266076B8B1CD49C7EC91185F94847B /* MSWatchSession+Debug.swift */; };
+		EF28E1A9C39AE47D8E6F21315DD2071F /* MSWatchSession-iOS-MSWatchSession in Resources */ = {isa = PBXBuildFile; fileRef = 0CC3B5F936FB06923434A9F91B068EFC /* MSWatchSession-iOS-MSWatchSession */; };
+		F5B3DB8108CC5CF8585C977BE64EB31D /* Pods-MSWatchSession_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3714BBFF5D0A300A752383EEAC6459 /* Pods-MSWatchSession_Example-dummy.m */; };
+		FB5A2721299BC5F5CBDEBC7A1E9845C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61AF5EB4F939A07754587CE4B4422CCC /* Foundation.framework */; };
+		FDD769880F45A1C119A0FCE13361DC78 /* MSWatchSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077DFB9793EC25E16E4776E4D68116CA /* MSWatchSession.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		022542BA3A72B5F5F86084B9A0965F1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB84151A379CFD23A2863E0C4B3982CA;
+			remoteInfo = "MSWatchSession-watchOS-MSWatchSession";
+		};
+		1C7439B07939DD7F3E431FF1A9639E54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EB75F460F8C421BF965379433410E25;
+			remoteInfo = "MSWatchSession-watchOS";
+		};
+		F76F021705F2F62AAF4A83237D9E4F30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5417A86DBD0CE4CFAC03F54F44DEF0E;
+			remoteInfo = "MSWatchSession-iOS-MSWatchSession";
+		};
+		FB44E1827AFF0FA668802BB9E3F2294D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04491BAB1EF7E7C9A929F674C99031A5;
+			remoteInfo = "MSWatchSession-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0134A27489D6948CE87F3FE1E036D92F /* Pods-MSWatchSessionWatchApp_Example Watch App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSWatchSessionWatchApp_Example Watch App-frameworks.sh"; sourceTree = "<group>"; };
+		077DFB9793EC25E16E4776E4D68116CA /* MSWatchSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSWatchSession.swift; path = MSWatchSession/Classes/MSWatchSession.swift; sourceTree = "<group>"; };
+		082FFB103C8998778F9C95CBDF963D32 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		0AF65CC75985F7CA4DBF5C6E7F18B677 /* Pods-MSWatchSessionWatchApp_Example Watch App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSWatchSessionWatchApp_Example Watch App-dummy.m"; sourceTree = "<group>"; };
+		0CC3B5F936FB06923434A9F91B068EFC /* MSWatchSession-iOS-MSWatchSession */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MSWatchSession-iOS-MSWatchSession"; path = MSWatchSession.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		19087CE178B2CF019000E1CE3B23F0B8 /* Pods-MSWatchSessionWatchApp_Example Watch App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSWatchSessionWatchApp_Example Watch App.debug.xcconfig"; sourceTree = "<group>"; };
+		1B62B9ACB69DDF461ACAAAB9CF1708C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1D3061F05E7E94006EA820076DE45F09 /* ResourceBundle-MSWatchSession-MSWatchSession-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MSWatchSession-MSWatchSession-iOS-Info.plist"; sourceTree = "<group>"; };
+		258C24EB1243C5CE3C6D6C1FB1B614E6 /* Pods-MSWatchSession_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MSWatchSession_Example"; path = Pods_MSWatchSession_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27BEF63B90288E6B04505560F6A53308 /* ResourceBundle-MSWatchSession-MSWatchSession-watchOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "ResourceBundle-MSWatchSession-MSWatchSession-watchOS-Info.plist"; path = "../MSWatchSession-watchOS/ResourceBundle-MSWatchSession-MSWatchSession-watchOS-Info.plist"; sourceTree = "<group>"; };
+		2812C2B5E0EA1AF7EE2EBE618813EFD6 /* Pods-MSWatchSessionWatchApp_Example Watch App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSWatchSessionWatchApp_Example Watch App-acknowledgements.plist"; sourceTree = "<group>"; };
+		29266076B8B1CD49C7EC91185F94847B /* MSWatchSession+Debug.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MSWatchSession+Debug.swift"; path = "MSWatchSession/Classes/MSWatchSession+Debug.swift"; sourceTree = "<group>"; };
+		2AD223B1AD0F4E3EE750C50C26B1C00B /* Pods-MSWatchSession_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MSWatchSession_Example.modulemap"; sourceTree = "<group>"; };
+		2D0053EF20518480C954ABC984AEB4C3 /* MSWatchSession-watchOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "MSWatchSession-watchOS-Info.plist"; path = "../MSWatchSession-watchOS/MSWatchSession-watchOS-Info.plist"; sourceTree = "<group>"; };
+		2E54E1B6D0A8E1AC1BBE5890EE16442D /* MSWatchSession-iOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "MSWatchSession-iOS"; path = MSWatchSession.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		302116E064B630B1B74170B53DD17D50 /* MSWatchSession-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSWatchSession-iOS-dummy.m"; sourceTree = "<group>"; };
+		31053ED871BC7D0D1B1AC030F2F7D591 /* MSWatchSession-watchOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "MSWatchSession-watchOS"; path = MSWatchSession.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		318CD4C3890C67AB20FA53C4C0E7CC8C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		330C5955B8DC8958C4FDF7CDF93B6807 /* MSWatchSession-watchOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MSWatchSession-watchOS-umbrella.h"; path = "../MSWatchSession-watchOS/MSWatchSession-watchOS-umbrella.h"; sourceTree = "<group>"; };
+		3C9F332E6C7F489F30B2C47C2E9C65BB /* Pods-MSWatchSession_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSWatchSession_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3ED70A3DAAEFDAD733E15776F0A3C9A7 /* MSWatchSession-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "MSWatchSession-iOS.modulemap"; sourceTree = "<group>"; };
+		51196924B469470A15EB7DB1212C435D /* Pods-MSWatchSessionWatchApp_Example Watch App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSWatchSessionWatchApp_Example Watch App-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5B1AFDD891A79D0A8A6B71A225489B74 /* MSWatchSession-watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "MSWatchSession-watchOS.debug.xcconfig"; path = "../MSWatchSession-watchOS/MSWatchSession-watchOS.debug.xcconfig"; sourceTree = "<group>"; };
+		61AF5EB4F939A07754587CE4B4422CCC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6C084E2B3AD0F888A4F2780B409514D7 /* Pods-MSWatchSessionWatchApp_Example Watch App */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MSWatchSessionWatchApp_Example Watch App"; path = Pods_MSWatchSessionWatchApp_Example_Watch_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E220DDEDC3FA08CA9BAAA614F4A760E /* Pods-MSWatchSession_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSWatchSession_Example-Info.plist"; sourceTree = "<group>"; };
+		6EE91E068ADE12F42E1C870770E5D797 /* Pods-MSWatchSessionWatchApp_Example Watch App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSWatchSessionWatchApp_Example Watch App.release.xcconfig"; sourceTree = "<group>"; };
+		70D262C329CF34FC39C82DDF8161D8A9 /* Pods-MSWatchSession_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MSWatchSession_Example-umbrella.h"; sourceTree = "<group>"; };
+		78115CABF97C367620E6A33325E0304F /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = MSWatchSession/Assets/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		78D4C82C84D656FF7363786B3AEB3CE5 /* MSWatchSession-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MSWatchSession-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		7A9ACCB3E57625FA7639AF85400BE9A8 /* MSWatchSession-watchOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MSWatchSession-watchOS-prefix.pch"; path = "../MSWatchSession-watchOS/MSWatchSession-watchOS-prefix.pch"; sourceTree = "<group>"; };
+		7DB7119B3586797CA034F2EBEDB9FB7B /* MSWatchSession-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MSWatchSession-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		853B9EFF00EF8EF8E9EA80A087F2BE94 /* WatchMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WatchMessage.swift; path = MSWatchSession/Classes/WatchMessage.swift; sourceTree = "<group>"; };
+		85AACB93A7DA94E627EF73B04C1F639D /* Pods-MSWatchSessionWatchApp_Example Watch App-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSWatchSessionWatchApp_Example Watch App-Info.plist"; sourceTree = "<group>"; };
+		8B49119BA6F2D43CA212FFD6A93FA327 /* MSWatchSession-watchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MSWatchSession-watchOS-dummy.m"; path = "../MSWatchSession-watchOS/MSWatchSession-watchOS-dummy.m"; sourceTree = "<group>"; };
+		8CA4A345EDE80471A23933DCD3750CF9 /* Pods-MSWatchSession_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSWatchSession_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9392F75173C9B60FDAC8F4D58421B64 /* Pods-MSWatchSession_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSWatchSession_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AE71479227D4C96F6BD818CC12CC66A7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B9549AF20A92B32FA04DDFBFE0BC6B51 /* MSWatchSession-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MSWatchSession-iOS-Info.plist"; sourceTree = "<group>"; };
+		C4B1975972DA464AB4BD35B6C125CC2D /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.0.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		CC26C6109433B9A411B3BE7CB6687E16 /* Pods-MSWatchSession_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSWatchSession_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DA3714BBFF5D0A300A752383EEAC6459 /* Pods-MSWatchSession_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSWatchSession_Example-dummy.m"; sourceTree = "<group>"; };
+		DD45D67A43E0670E072FD013DF600B82 /* MSWatchSession-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSWatchSession-iOS-umbrella.h"; sourceTree = "<group>"; };
+		DD62580389F5D3EAB3BAD4136BCE9061 /* Pods-MSWatchSessionWatchApp_Example Watch App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MSWatchSessionWatchApp_Example Watch App.modulemap"; sourceTree = "<group>"; };
+		DF467D2A2829CBB7D0FCBAE1A3FD628C /* MSWatchSession-watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "MSWatchSession-watchOS.release.xcconfig"; path = "../MSWatchSession-watchOS/MSWatchSession-watchOS.release.xcconfig"; sourceTree = "<group>"; };
+		E482E3E96CBD6378ECF275A1B9D64D4F /* Pods-MSWatchSession_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSWatchSession_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E5F65E2E59EEFF4136817E0FECAA9C4E /* Pods-MSWatchSessionWatchApp_Example Watch App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MSWatchSessionWatchApp_Example Watch App-umbrella.h"; sourceTree = "<group>"; };
+		EB2F56ABAD3DCC5B9ABE2C12B3BF7328 /* MSWatchSession-watchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "MSWatchSession-watchOS.modulemap"; path = "../MSWatchSession-watchOS/MSWatchSession-watchOS.modulemap"; sourceTree = "<group>"; };
+		F0969A3A50937564FD5FFBE548F1C82E /* MSWatchSession-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSWatchSession-iOS-prefix.pch"; sourceTree = "<group>"; };
+		F506CF56DAB5699CABB86BF04BFE252D /* MSWatchSession.podspec.json */ = {isa = PBXFileReference; includeInIndex = 1; path = MSWatchSession.podspec.json; sourceTree = "<group>"; };
+		FC1D0CAE85F60743C7B4CE41402A5EED /* MSWatchSession-watchOS-MSWatchSession */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MSWatchSession-watchOS-MSWatchSession"; path = MSWatchSession.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BFEAA203CB495243EAADCF7320F472B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D94CF7EB498FD850036FEEB4A94FCEFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA27E508FA3F182EDD241B031728AA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64E018199FA1E6BC109D3442FF23645A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277DC45FEA486D83AE020A63E3FB68F3 /* Foundation.framework in Frameworks */,
+				B37BF16F2C0F9099239B0497E249FB6B /* WatchConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DDB801F1A65B58BF08044BB29771046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D65BA9633A86D11A1D1A13C469299023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8B00733F4CD5FEDE45DF24096FB2C11 /* Foundation.framework in Frameworks */,
+				3F3BDEE72BC79B0EAAB577A28D92F753 /* WatchConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF0C5FEE869A2B835053CA57B062BAD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5A2721299BC5F5CBDEBC7A1E9845C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C8DB75BDCC7CB88B7C3EE4CFC07CF97 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8037360097ED303BEB23BF7EFD839AFD /* MSWatchSession */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1585E428AB2B324DC6AF966F1B342327 /* Pods-MSWatchSession_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2AD223B1AD0F4E3EE750C50C26B1C00B /* Pods-MSWatchSession_Example.modulemap */,
+				CC26C6109433B9A411B3BE7CB6687E16 /* Pods-MSWatchSession_Example-acknowledgements.markdown */,
+				8CA4A345EDE80471A23933DCD3750CF9 /* Pods-MSWatchSession_Example-acknowledgements.plist */,
+				DA3714BBFF5D0A300A752383EEAC6459 /* Pods-MSWatchSession_Example-dummy.m */,
+				A9392F75173C9B60FDAC8F4D58421B64 /* Pods-MSWatchSession_Example-frameworks.sh */,
+				6E220DDEDC3FA08CA9BAAA614F4A760E /* Pods-MSWatchSession_Example-Info.plist */,
+				70D262C329CF34FC39C82DDF8161D8A9 /* Pods-MSWatchSession_Example-umbrella.h */,
+				E482E3E96CBD6378ECF275A1B9D64D4F /* Pods-MSWatchSession_Example.debug.xcconfig */,
+				3C9F332E6C7F489F30B2C47C2E9C65BB /* Pods-MSWatchSession_Example.release.xcconfig */,
+			);
+			name = "Pods-MSWatchSession_Example";
+			path = "Target Support Files/Pods-MSWatchSession_Example";
+			sourceTree = "<group>";
+		};
+		31920A8EC3C3AFA2F2C884EF5126DC8F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				318CD4C3890C67AB20FA53C4C0E7CC8C /* LICENSE */,
+				F506CF56DAB5699CABB86BF04BFE252D /* MSWatchSession.podspec.json */,
+				AE71479227D4C96F6BD818CC12CC66A7 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		44FFECF8A5F1E7B76CF4749BB44BC2E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E54E1B6D0A8E1AC1BBE5890EE16442D /* MSWatchSession-iOS */,
+				0CC3B5F936FB06923434A9F91B068EFC /* MSWatchSession-iOS-MSWatchSession */,
+				31053ED871BC7D0D1B1AC030F2F7D591 /* MSWatchSession-watchOS */,
+				FC1D0CAE85F60743C7B4CE41402A5EED /* MSWatchSession-watchOS-MSWatchSession */,
+				258C24EB1243C5CE3C6D6C1FB1B614E6 /* Pods-MSWatchSession_Example */,
+				6C084E2B3AD0F888A4F2780B409514D7 /* Pods-MSWatchSessionWatchApp_Example Watch App */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		721CED5FA30CE83CB901750924D1F5F0 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				1B62B9ACB69DDF461ACAAAB9CF1708C5 /* Foundation.framework */,
+				C4B1975972DA464AB4BD35B6C125CC2D /* WatchConnectivity.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		8037360097ED303BEB23BF7EFD839AFD /* MSWatchSession */ = {
+			isa = PBXGroup;
+			children = (
+				077DFB9793EC25E16E4776E4D68116CA /* MSWatchSession.swift */,
+				29266076B8B1CD49C7EC91185F94847B /* MSWatchSession+Debug.swift */,
+				78115CABF97C367620E6A33325E0304F /* PrivacyInfo.xcprivacy */,
+				853B9EFF00EF8EF8E9EA80A087F2BE94 /* WatchMessage.swift */,
+				31920A8EC3C3AFA2F2C884EF5126DC8F /* Pod */,
+				D13EA0D80E2DC35339E63AC0FF42FFBC /* Support Files */,
+			);
+			name = MSWatchSession;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		837480ADB703E696357D11E4407E7E4B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				61AF5EB4F939A07754587CE4B4422CCC /* Foundation.framework */,
+				082FFB103C8998778F9C95CBDF963D32 /* WatchConnectivity.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C4AEAE9A61371DD0E0E02C702F6FF970 /* Pods-MSWatchSessionWatchApp_Example Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				DD62580389F5D3EAB3BAD4136BCE9061 /* Pods-MSWatchSessionWatchApp_Example Watch App.modulemap */,
+				51196924B469470A15EB7DB1212C435D /* Pods-MSWatchSessionWatchApp_Example Watch App-acknowledgements.markdown */,
+				2812C2B5E0EA1AF7EE2EBE618813EFD6 /* Pods-MSWatchSessionWatchApp_Example Watch App-acknowledgements.plist */,
+				0AF65CC75985F7CA4DBF5C6E7F18B677 /* Pods-MSWatchSessionWatchApp_Example Watch App-dummy.m */,
+				0134A27489D6948CE87F3FE1E036D92F /* Pods-MSWatchSessionWatchApp_Example Watch App-frameworks.sh */,
+				85AACB93A7DA94E627EF73B04C1F639D /* Pods-MSWatchSessionWatchApp_Example Watch App-Info.plist */,
+				E5F65E2E59EEFF4136817E0FECAA9C4E /* Pods-MSWatchSessionWatchApp_Example Watch App-umbrella.h */,
+				19087CE178B2CF019000E1CE3B23F0B8 /* Pods-MSWatchSessionWatchApp_Example Watch App.debug.xcconfig */,
+				6EE91E068ADE12F42E1C870770E5D797 /* Pods-MSWatchSessionWatchApp_Example Watch App.release.xcconfig */,
+			);
+			name = "Pods-MSWatchSessionWatchApp_Example Watch App";
+			path = "Target Support Files/Pods-MSWatchSessionWatchApp_Example Watch App";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				0C8DB75BDCC7CB88B7C3EE4CFC07CF97 /* Development Pods */,
+				DE987B428FA3D231AF1EF6088D8E9999 /* Frameworks */,
+				44FFECF8A5F1E7B76CF4749BB44BC2E6 /* Products */,
+				FE3C9C4F5859A92A3230870CF07CE109 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D13EA0D80E2DC35339E63AC0FF42FFBC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3ED70A3DAAEFDAD733E15776F0A3C9A7 /* MSWatchSession-iOS.modulemap */,
+				302116E064B630B1B74170B53DD17D50 /* MSWatchSession-iOS-dummy.m */,
+				B9549AF20A92B32FA04DDFBFE0BC6B51 /* MSWatchSession-iOS-Info.plist */,
+				F0969A3A50937564FD5FFBE548F1C82E /* MSWatchSession-iOS-prefix.pch */,
+				DD45D67A43E0670E072FD013DF600B82 /* MSWatchSession-iOS-umbrella.h */,
+				78D4C82C84D656FF7363786B3AEB3CE5 /* MSWatchSession-iOS.debug.xcconfig */,
+				7DB7119B3586797CA034F2EBEDB9FB7B /* MSWatchSession-iOS.release.xcconfig */,
+				EB2F56ABAD3DCC5B9ABE2C12B3BF7328 /* MSWatchSession-watchOS.modulemap */,
+				8B49119BA6F2D43CA212FFD6A93FA327 /* MSWatchSession-watchOS-dummy.m */,
+				2D0053EF20518480C954ABC984AEB4C3 /* MSWatchSession-watchOS-Info.plist */,
+				7A9ACCB3E57625FA7639AF85400BE9A8 /* MSWatchSession-watchOS-prefix.pch */,
+				330C5955B8DC8958C4FDF7CDF93B6807 /* MSWatchSession-watchOS-umbrella.h */,
+				5B1AFDD891A79D0A8A6B71A225489B74 /* MSWatchSession-watchOS.debug.xcconfig */,
+				DF467D2A2829CBB7D0FCBAE1A3FD628C /* MSWatchSession-watchOS.release.xcconfig */,
+				1D3061F05E7E94006EA820076DE45F09 /* ResourceBundle-MSWatchSession-MSWatchSession-iOS-Info.plist */,
+				27BEF63B90288E6B04505560F6A53308 /* ResourceBundle-MSWatchSession-MSWatchSession-watchOS-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MSWatchSession-iOS";
+			sourceTree = "<group>";
+		};
+		DE987B428FA3D231AF1EF6088D8E9999 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				837480ADB703E696357D11E4407E7E4B /* iOS */,
+				721CED5FA30CE83CB901750924D1F5F0 /* watchOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE3C9C4F5859A92A3230870CF07CE109 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1585E428AB2B324DC6AF966F1B342327 /* Pods-MSWatchSession_Example */,
+				C4AEAE9A61371DD0E0E02C702F6FF970 /* Pods-MSWatchSessionWatchApp_Example Watch App */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0147B0916A33D5AB8F37B5C8484C755C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				977AC93174B377B446B2B99C9AA008D3 /* MSWatchSession-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FD76B87D8FF193A3483D80BFFFC74D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375AE855224E00D8DD960EA9E675C7F4 /* MSWatchSession-watchOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C21356BB11EA56F322146CE095CA41 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88C824B8614A625FD11A24202E1C81D /* Pods-MSWatchSession_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB95452B3349D27910AB77CD6CE83827 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8070B3DD52D7CE75F2DD075377795738 /* Pods-MSWatchSessionWatchApp_Example Watch App-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04491BAB1EF7E7C9A929F674C99031A5 /* MSWatchSession-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29FACEDF91CAF8C6694D713D330CC50F /* Build configuration list for PBXNativeTarget "MSWatchSession-iOS" */;
+			buildPhases = (
+				0147B0916A33D5AB8F37B5C8484C755C /* Headers */,
+				3284E34366C6DB34BF1A66CC5C6767CC /* Sources */,
+				D65BA9633A86D11A1D1A13C469299023 /* Frameworks */,
+				256EB67B715F537AA94A1C8F8B79DA00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D352E1653AC107DA9E491F16B51E2FCF /* PBXTargetDependency */,
+			);
+			name = "MSWatchSession-iOS";
+			productName = MSWatchSession;
+			productReference = 2E54E1B6D0A8E1AC1BBE5890EE16442D /* MSWatchSession-iOS */;
+			productType = "com.apple.product-type.framework";
+		};
+		8EB75F460F8C421BF965379433410E25 /* MSWatchSession-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 579963B582D4380FB4120AA8F35B67E3 /* Build configuration list for PBXNativeTarget "MSWatchSession-watchOS" */;
+			buildPhases = (
+				1FD76B87D8FF193A3483D80BFFFC74D4 /* Headers */,
+				557466A247B476D9D345049FED71038C /* Sources */,
+				64E018199FA1E6BC109D3442FF23645A /* Frameworks */,
+				FC3BA65044A585257507CEAEB72A9C40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A26392B61BE67DA0FD07712C4358D3D2 /* PBXTargetDependency */,
+			);
+			name = "MSWatchSession-watchOS";
+			productName = MSWatchSession;
+			productReference = 31053ED871BC7D0D1B1AC030F2F7D591 /* MSWatchSession-watchOS */;
+			productType = "com.apple.product-type.framework";
+		};
+		C5417A86DBD0CE4CFAC03F54F44DEF0E /* MSWatchSession-iOS-MSWatchSession */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7158C18716B24C23CFF3DB9DB0E9CBB6 /* Build configuration list for PBXNativeTarget "MSWatchSession-iOS-MSWatchSession" */;
+			buildPhases = (
+				8511A708598516DDC9B16F41C9F4A5BC /* Sources */,
+				3FA27E508FA3F182EDD241B031728AA5 /* Frameworks */,
+				31C781183F2ED1C9CA2B042A74ED104A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MSWatchSession-iOS-MSWatchSession";
+			productName = MSWatchSession;
+			productReference = 0CC3B5F936FB06923434A9F91B068EFC /* MSWatchSession-iOS-MSWatchSession */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D0BFFA02ED04F881ECBA5E017BDCF7E2 /* Pods-MSWatchSessionWatchApp_Example Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38F8DBD60A1416A4581480F931A2458C /* Build configuration list for PBXNativeTarget "Pods-MSWatchSessionWatchApp_Example Watch App" */;
+			buildPhases = (
+				BB95452B3349D27910AB77CD6CE83827 /* Headers */,
+				31C8C5057D233C65B9235813F4C03AB1 /* Sources */,
+				0BFEAA203CB495243EAADCF7320F472B /* Frameworks */,
+				B1027C5F2DE821FCEFBAA1A84168DC83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE69D32DB2B5D93F8F1C2837F235602B /* PBXTargetDependency */,
+			);
+			name = "Pods-MSWatchSessionWatchApp_Example Watch App";
+			productName = Pods_MSWatchSessionWatchApp_Example_Watch_App;
+			productReference = 6C084E2B3AD0F888A4F2780B409514D7 /* Pods-MSWatchSessionWatchApp_Example Watch App */;
+			productType = "com.apple.product-type.framework";
+		};
+		DB84151A379CFD23A2863E0C4B3982CA /* MSWatchSession-watchOS-MSWatchSession */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FD4757436F36ED4EA07B5933C85C8F4 /* Build configuration list for PBXNativeTarget "MSWatchSession-watchOS-MSWatchSession" */;
+			buildPhases = (
+				55D78DF974BE9DA0A18328D8709DA160 /* Sources */,
+				6DDB801F1A65B58BF08044BB29771046 /* Frameworks */,
+				5EBA4906BF9CDDEA8763E99B658394EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MSWatchSession-watchOS-MSWatchSession";
+			productName = MSWatchSession;
+			productReference = FC1D0CAE85F60743C7B4CE41402A5EED /* MSWatchSession-watchOS-MSWatchSession */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F5891A0375D310A18587763575E5E76C /* Pods-MSWatchSession_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D72F28E819B5B6DD4322CAF043AF28AF /* Build configuration list for PBXNativeTarget "Pods-MSWatchSession_Example" */;
+			buildPhases = (
+				22C21356BB11EA56F322146CE095CA41 /* Headers */,
+				9DDCA4811F613927092AA7F0E1BA81E8 /* Sources */,
+				FF0C5FEE869A2B835053CA57B062BAD7 /* Frameworks */,
+				5D6FC212F6DD477353F4BD9272CEC6F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70DC5A9DEFDB61E562E244C5B2196333 /* PBXTargetDependency */,
+			);
+			name = "Pods-MSWatchSession_Example";
+			productName = Pods_MSWatchSession_Example;
+			productReference = 258C24EB1243C5CE3C6D6C1FB1B614E6 /* Pods-MSWatchSession_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 44FFECF8A5F1E7B76CF4749BB44BC2E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04491BAB1EF7E7C9A929F674C99031A5 /* MSWatchSession-iOS */,
+				C5417A86DBD0CE4CFAC03F54F44DEF0E /* MSWatchSession-iOS-MSWatchSession */,
+				8EB75F460F8C421BF965379433410E25 /* MSWatchSession-watchOS */,
+				DB84151A379CFD23A2863E0C4B3982CA /* MSWatchSession-watchOS-MSWatchSession */,
+				F5891A0375D310A18587763575E5E76C /* Pods-MSWatchSession_Example */,
+				D0BFFA02ED04F881ECBA5E017BDCF7E2 /* Pods-MSWatchSessionWatchApp_Example Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		256EB67B715F537AA94A1C8F8B79DA00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF28E1A9C39AE47D8E6F21315DD2071F /* MSWatchSession-iOS-MSWatchSession in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31C781183F2ED1C9CA2B042A74ED104A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180A8440CA2DBFA42C97EAC5DF600604 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D6FC212F6DD477353F4BD9272CEC6F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EBA4906BF9CDDEA8763E99B658394EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83ED79AB45005713F311FB0F70343A23 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1027C5F2DE821FCEFBAA1A84168DC83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3BA65044A585257507CEAEB72A9C40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9686C77384B6DCB7B7FED0E25EA64B00 /* MSWatchSession-watchOS-MSWatchSession in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31C8C5057D233C65B9235813F4C03AB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00D51759A5CD30CE06598BD17E8A155D /* Pods-MSWatchSessionWatchApp_Example Watch App-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3284E34366C6DB34BF1A66CC5C6767CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD769880F45A1C119A0FCE13361DC78 /* MSWatchSession.swift in Sources */,
+				A00C4E1D9D2DF2F5A362087DCCA18223 /* MSWatchSession+Debug.swift in Sources */,
+				270FAD3B24A0D05D69D577EF1EE99137 /* MSWatchSession-iOS-dummy.m in Sources */,
+				02421201AC5D536F523C71BA0696780D /* WatchMessage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557466A247B476D9D345049FED71038C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9CDB2175551F8CE4A4326F4A765532 /* MSWatchSession.swift in Sources */,
+				DEFE4BFA4E99A87B27510D2167C0C399 /* MSWatchSession+Debug.swift in Sources */,
+				9A124528FE401CE28600A3C1607E12CA /* MSWatchSession-watchOS-dummy.m in Sources */,
+				51C09A5EEDF37BA9D6EF6E21BBB028A9 /* WatchMessage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55D78DF974BE9DA0A18328D8709DA160 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8511A708598516DDC9B16F41C9F4A5BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DDCA4811F613927092AA7F0E1BA81E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B3DB8108CC5CF8585C977BE64EB31D /* Pods-MSWatchSession_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70DC5A9DEFDB61E562E244C5B2196333 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MSWatchSession-iOS";
+			target = 04491BAB1EF7E7C9A929F674C99031A5 /* MSWatchSession-iOS */;
+			targetProxy = FB44E1827AFF0FA668802BB9E3F2294D /* PBXContainerItemProxy */;
+		};
+		A26392B61BE67DA0FD07712C4358D3D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MSWatchSession-watchOS-MSWatchSession";
+			target = DB84151A379CFD23A2863E0C4B3982CA /* MSWatchSession-watchOS-MSWatchSession */;
+			targetProxy = 022542BA3A72B5F5F86084B9A0965F1B /* PBXContainerItemProxy */;
+		};
+		AE69D32DB2B5D93F8F1C2837F235602B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MSWatchSession-watchOS";
+			target = 8EB75F460F8C421BF965379433410E25 /* MSWatchSession-watchOS */;
+			targetProxy = 1C7439B07939DD7F3E431FF1A9639E54 /* PBXContainerItemProxy */;
+		};
+		D352E1653AC107DA9E491F16B51E2FCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MSWatchSession-iOS-MSWatchSession";
+			target = C5417A86DBD0CE4CFAC03F54F44DEF0E /* MSWatchSession-iOS-MSWatchSession */;
+			targetProxy = F76F021705F2F62AAF4A83237D9E4F30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E88F9A86DE0372326C342EEA1A0DF31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78D4C82C84D656FF7363786B3AEB3CE5 /* MSWatchSession-iOS.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MSWatchSession-iOS/MSWatchSession-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MSWatchSession-iOS/MSWatchSession-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MSWatchSession-iOS/MSWatchSession-iOS.modulemap";
+				PRODUCT_MODULE_NAME = MSWatchSession;
+				PRODUCT_NAME = MSWatchSession;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.6;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1357233525F9FD46E24F86D856E181F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19087CE178B2CF019000E1CE3B23F0B8 /* Pods-MSWatchSessionWatchApp_Example Watch App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MSWatchSessionWatchApp_Example Watch App/Pods-MSWatchSessionWatchApp_Example Watch App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MSWatchSessionWatchApp_Example Watch App/Pods-MSWatchSessionWatchApp_Example Watch App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		1DF2391CF677B25A65AF961253A10A8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EE91E068ADE12F42E1C870770E5D797 /* Pods-MSWatchSessionWatchApp_Example Watch App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MSWatchSessionWatchApp_Example Watch App/Pods-MSWatchSessionWatchApp_Example Watch App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MSWatchSessionWatchApp_Example Watch App/Pods-MSWatchSessionWatchApp_Example Watch App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		2797EB6E1972B591FAF5F4F17BF9E64A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C9F332E6C7F489F30B2C47C2E9C65BB /* Pods-MSWatchSession_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MSWatchSession_Example/Pods-MSWatchSession_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MSWatchSession_Example/Pods-MSWatchSession_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		31CA5753EFAA1E7BA7EFA586627258A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B1AFDD891A79D0A8A6B71A225489B74 /* MSWatchSession-watchOS.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MSWatchSession-watchOS/MSWatchSession-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MSWatchSession-watchOS/MSWatchSession-watchOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MSWatchSession-watchOS/MSWatchSession-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = MSWatchSession;
+				PRODUCT_NAME = MSWatchSession;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.6;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		4520B1740D81B7C1084272AF97114BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E482E3E96CBD6378ECF275A1B9D64D4F /* Pods-MSWatchSession_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MSWatchSession_Example/Pods-MSWatchSession_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MSWatchSession_Example/Pods-MSWatchSession_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5E1A489927A50AB3D4BBF3A41B8E8926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		7FB2C0818B78CF45316DC7E8D76116EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B1AFDD891A79D0A8A6B71A225489B74 /* MSWatchSession-watchOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MSWatchSession-watchOS";
+				IBSC_MODULE = MSWatchSession;
+				INFOPLIST_FILE = "Target Support Files/MSWatchSession-watchOS/ResourceBundle-MSWatchSession-MSWatchSession-watchOS-Info.plist";
+				PRODUCT_NAME = MSWatchSession;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2,4";
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		841F4E9F08E6E1451B16D94C99F7B348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF467D2A2829CBB7D0FCBAE1A3FD628C /* MSWatchSession-watchOS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MSWatchSession-watchOS";
+				IBSC_MODULE = MSWatchSession;
+				INFOPLIST_FILE = "Target Support Files/MSWatchSession-watchOS/ResourceBundle-MSWatchSession-MSWatchSession-watchOS-Info.plist";
+				PRODUCT_NAME = MSWatchSession;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2,4";
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A208E9012AB18C28B02AF1C0E9646DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DB7119B3586797CA034F2EBEDB9FB7B /* MSWatchSession-iOS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MSWatchSession-iOS";
+				IBSC_MODULE = MSWatchSession;
+				INFOPLIST_FILE = "Target Support Files/MSWatchSession-iOS/ResourceBundle-MSWatchSession-MSWatchSession-iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = MSWatchSession;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B2EE74B0752DC94C44797D866167A3C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78D4C82C84D656FF7363786B3AEB3CE5 /* MSWatchSession-iOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MSWatchSession-iOS";
+				IBSC_MODULE = MSWatchSession;
+				INFOPLIST_FILE = "Target Support Files/MSWatchSession-iOS/ResourceBundle-MSWatchSession-MSWatchSession-iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = MSWatchSession;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B7E603F9B00AB001603572828BB27046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		EA443D16B0945C99B8D910CD36842333 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DB7119B3586797CA034F2EBEDB9FB7B /* MSWatchSession-iOS.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MSWatchSession-iOS/MSWatchSession-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MSWatchSession-iOS/MSWatchSession-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MSWatchSession-iOS/MSWatchSession-iOS.modulemap";
+				PRODUCT_MODULE_NAME = MSWatchSession;
+				PRODUCT_NAME = MSWatchSession;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.6;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F7548F96A9EC83B4246C220DDB29C2C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF467D2A2829CBB7D0FCBAE1A3FD628C /* MSWatchSession-watchOS.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MSWatchSession-watchOS/MSWatchSession-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MSWatchSession-watchOS/MSWatchSession-watchOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MSWatchSession-watchOS/MSWatchSession-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = MSWatchSession;
+				PRODUCT_NAME = MSWatchSession;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.6;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29FACEDF91CAF8C6694D713D330CC50F /* Build configuration list for PBXNativeTarget "MSWatchSession-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E88F9A86DE0372326C342EEA1A0DF31 /* Debug */,
+				EA443D16B0945C99B8D910CD36842333 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38F8DBD60A1416A4581480F931A2458C /* Build configuration list for PBXNativeTarget "Pods-MSWatchSessionWatchApp_Example Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1357233525F9FD46E24F86D856E181F6 /* Debug */,
+				1DF2391CF677B25A65AF961253A10A8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E603F9B00AB001603572828BB27046 /* Debug */,
+				5E1A489927A50AB3D4BBF3A41B8E8926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		579963B582D4380FB4120AA8F35B67E3 /* Build configuration list for PBXNativeTarget "MSWatchSession-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31CA5753EFAA1E7BA7EFA586627258A0 /* Debug */,
+				F7548F96A9EC83B4246C220DDB29C2C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7158C18716B24C23CFF3DB9DB0E9CBB6 /* Build configuration list for PBXNativeTarget "MSWatchSession-iOS-MSWatchSession" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2EE74B0752DC94C44797D866167A3C1 /* Debug */,
+				A208E9012AB18C28B02AF1C0E9646DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FD4757436F36ED4EA07B5933C85C8F4 /* Build configuration list for PBXNativeTarget "MSWatchSession-watchOS-MSWatchSession" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB2C0818B78CF45316DC7E8D76116EB /* Debug */,
+				841F4E9F08E6E1451B16D94C99F7B348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D72F28E819B5B6DD4322CAF043AF28AF /* Build configuration list for PBXNativeTarget "Pods-MSWatchSession_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4520B1740D81B7C1084272AF97114BFC /* Debug */,
+				2797EB6E1972B591FAF5F4F17BF9E64A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module MSWatchSession {
+  umbrella header "MSWatchSession-watchOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
