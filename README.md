@@ -5,8 +5,7 @@ Lightweight library to initiate communication between watchApp with companion iO
 [![License](https://img.shields.io/cocoapods/l/MSWatchSession.svg?style=flat)](https://cocoapods.org/pods/MSWatchSession)
 [![Platform](https://img.shields.io/cocoapods/p/MSWatchSession.svg?style=flat)](https://cocoapods.org/pods/MSWatchSession)
 
-![Screenshot](https://raw.githubusercontent.com/mayur43s/MSWatchSession/main/Screenshot/MSWatchSessionPhoneScreenshot.png)
-![Screenshot](https://raw.githubusercontent.com/mayur43s/MSWatchSession/main/Screenshot/MSWatchSessionWatchScreenshot.png)
+![Screenshot](https://raw.githubusercontent.com/mayur43s/MSWatchSession/main/Screenshot/MSWatchSessionScreenshot.png)
 
 ## Example
 
