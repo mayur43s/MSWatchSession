@@ -45,8 +45,8 @@ class ViewController: UIViewController {
         guard let message = messageTextField.text, !message.isEmpty else {
             return
         }
-        let payload: [String: AnyHashable] = [ WatchCommand.kSessionKey: message ]
-        MSWatchSession.shared.send(command: WatchCommand.watchMessage.rawValue, payload: payload)
+        let payload: [String: AnyHashable] = [ Command.kSessionKey: message ]
+        MSWatchSession.shared.send(command: Command.watchMessage.rawValue, payload: payload)
         
     }
     

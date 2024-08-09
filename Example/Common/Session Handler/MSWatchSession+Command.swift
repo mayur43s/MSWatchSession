@@ -23,7 +23,7 @@
 
 import Foundation
 
-enum WatchCommand: String, Sendable {
+enum Command: String, Sendable {
     
     static let kSessionKey  = "session_key"
     

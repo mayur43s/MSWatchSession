@@ -33,6 +33,27 @@ pod 'MSWatchSession'
 To initiate communication, conform both app to MSWatchSessionDelegate:-
 
 ### iOS
+
+#### Step 1: Activate MSWatchSession
+
+```swift
+import MSWatchSession
+
+class AppDelegate: UIResponder, UIApplicationDelegate {
+
+    var window: UIWindow?
+
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        // Override point for customization after application launch.
+        
+        MSWatchSession.shared.activate(withDelegate: self)
+        return true
+    }
+}
+```
+
+#### Step 2: Conform MSWatchSessionDelegate
+
 ```swift
 import MSWatchSession
 
@@ -45,13 +66,13 @@ extension AppDelegate : MSWatchSessionDelegate {
     }
 
     func handle(message: WatchMessage, completion: @escaping (@Sendable(_ response: [String: AnyHashable]) -> Void)) {
-        guard let command = WatchCommand(rawValue: message.command) else {
+        guard let command = Command(rawValue: message.command) else {
             return
         }
 
         switch command {
         case .phoneMessage:
-            if let message = message.payload?[WatchCommand.kSessionKey] as? String {
+            if let message = message.payload?[Command.kSessionKey] as? String {
                 DispatchQueue.main.async {
                     let window = (UIApplication.shared.connectedScenes.first as? UIWindowScene)?.windows.first
 
@@ -59,10 +80,11 @@ extension AppDelegate : MSWatchSessionDelegate {
                         rootController.handlePhoneMessage(message: message)
                     }
                 }
-
             }
+            completion([:])
         case .watchMessage:
             print("receiveMessage")
+            completion([:])
         }
     }
 }
@@ -71,12 +93,30 @@ extension AppDelegate : MSWatchSessionDelegate {
 
 ### watchOS
 ```swift
+import SwiftUI
 import MSWatchSession
+
+struct WatchSessionWatchApp_Watch_AppApp: App {
+    
+    let watchSession = MSWatchSession.shared
+    
+    var body: some Scene {
+        WindowGroup {
+            NavigationStack {
+                ContentView()
+            }
+            .onAppear {
+                self.watchSession.activate(withDelegate: self)
+            }
+            .environmentObject(watchSession)
+        }
+    }
+}
 
 extension WatchSessionWatchApp_Watch_AppApp: MSWatchSessionDelegate {
 
     func sessionBecomeReachable() {
-        let command = WatchCommand.watchMessage.rawValue
+        let command = Command.watchMessage.rawValue
         MSWatchSession.shared.send(command: command, payload: nil, replyHandler: { result in
 
             switch result {
@@ -97,22 +137,25 @@ extension WatchSessionWatchApp_Watch_AppApp: MSWatchSessionDelegate {
     }
 
     func handle(message: WatchMessage, completion: @escaping (@Sendable(_ response: [String: AnyHashable]) -> Void)) {
-        guard let command = WatchCommand(rawValue: message.command) else {
+        guard let command = Command(rawValue: message.command) else {
             return
         }
 
         switch command {
         case .phoneMessage:
             print("sendMessage")
+            completion([:])
         case .watchMessage:
-            if let message = message.payload?[WatchCommand.kSessionKey] as? String {
+            if let message = message.payload?[Command.kSessionKey] as? String {
                 DispatchQueue.main.async {
                     NotificationCenter.default.post(name: .messageReceivedOnWatch, object: message)
                 }
             }
+            completion([:])
         }
     }
 }
+
 
 ```
 

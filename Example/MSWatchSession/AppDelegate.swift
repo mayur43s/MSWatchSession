@@ -70,13 +70,13 @@ extension AppDelegate : MSWatchSessionDelegate {
     }
 
     func handle(message: WatchMessage, completion: @escaping (@Sendable(_ response: [String: AnyHashable]) -> Void)) {
-        guard let command = WatchCommand(rawValue: message.command) else {
+        guard let command = Command(rawValue: message.command) else {
             return
         }
 
         switch command {
         case .phoneMessage:
-            if let message = message.payload?[WatchCommand.kSessionKey] as? String {
+            if let message = message.payload?[Command.kSessionKey] as? String {
                 DispatchQueue.main.async {
                     let window = (UIApplication.shared.connectedScenes.first as? UIWindowScene)?.windows.first
 
@@ -84,10 +84,11 @@ extension AppDelegate : MSWatchSessionDelegate {
                         rootController.handlePhoneMessage(message: message)
                     }
                 }
-
             }
+            completion([:])
         case .watchMessage:
             print("receiveMessage")
+            completion([:])
         }
     }
 }

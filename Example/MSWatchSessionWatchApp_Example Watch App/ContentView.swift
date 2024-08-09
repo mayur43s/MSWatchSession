@@ -62,8 +62,8 @@ struct ContentView: View {
         guard !item.isEmpty else {
             return
         }
-        let payload: [String: AnyHashable] = [ WatchCommand.kSessionKey: item ]
-        MSWatchSession.shared.send(command: WatchCommand.phoneMessage.rawValue, payload: payload)
+        let payload: [String: AnyHashable] = [ Command.kSessionKey: item ]
+        MSWatchSession.shared.send(command: Command.phoneMessage.rawValue, payload: payload)
     }
     
     private func showToastMessage(_ message: String) {

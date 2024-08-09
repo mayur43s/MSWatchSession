@@ -45,7 +45,7 @@ struct WatchSessionWatchApp_Watch_AppApp: App {
 extension WatchSessionWatchApp_Watch_AppApp: MSWatchSessionDelegate {
 
     func sessionBecomeReachable() {
-        let command = WatchCommand.watchMessage.rawValue
+        let command = Command.watchMessage.rawValue
         MSWatchSession.shared.send(command: command, payload: nil, replyHandler: { result in
 
             switch result {
@@ -66,19 +66,21 @@ extension WatchSessionWatchApp_Watch_AppApp: MSWatchSessionDelegate {
     }
 
     func handle(message: WatchMessage, completion: @escaping (@Sendable(_ response: [String: AnyHashable]) -> Void)) {
-        guard let command = WatchCommand(rawValue: message.command) else {
+        guard let command = Command(rawValue: message.command) else {
             return
         }
 
         switch command {
         case .phoneMessage:
             print("sendMessage")
+            completion([:])
         case .watchMessage:
-            if let message = message.payload?[WatchCommand.kSessionKey] as? String {
+            if let message = message.payload?[Command.kSessionKey] as? String {
                 DispatchQueue.main.async {
                     NotificationCenter.default.post(name: .messageReceivedOnWatch, object: message)
                 }
             }
+            completion([:])
         }
     }
 }

@@ -23,14 +23,13 @@
 
 import Foundation
 
-public struct WatchMessage: Sendable {
+public struct WatchMessage: @unchecked Sendable {
     public let command: String
     public let payload: [String: AnyHashable]?
 
     public init?(message: [String: AnyHashable]) {
 
-        guard let message = message as? [String: AnyHashable],
-              let command = message["command"] as? String else {
+        guard let command = message["command"] as? String else {
             return nil
         }
 
